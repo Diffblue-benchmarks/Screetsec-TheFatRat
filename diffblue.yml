@@ -7,6 +7,7 @@ cbmcArguments:
   java-generate-no-comments: true
   # Constrain the size of arrays created in the analyzed code.
   java-max-vla-length: 100000
+
 phases:
   -
     # Phase 0 PRETTY, SIMPLE and SMART - pretty tests, do not test private methods directly, Smart-Harness
